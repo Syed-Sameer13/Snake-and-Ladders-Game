@@ -48,7 +48,7 @@ let players = {
 
 function updateTurn() {
     cpl.textContent = `${players[currentPlayer]} Your Turn`;
-    cpl.style.fontSize = "25px";
+    cpl.style.fontSize = "26px";
 }
 
 function setPlayers() {
