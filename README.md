@@ -22,12 +22,27 @@ This project is part of my learning journey as a **2nd year B.Tech student**, ex
 ---
 - **HTML5** – Structure  
 - **CSS3** – Styling  
-- **JavaScript (Vanilla JS)** – Game logic  
+- **JavaScript** – Game logic  
 
 ---
+## 🎮 Game Rules
+
+1. The game is played by **two players** taking turns.  
+2. Each player starts at **position 0** and needs to roll a **1** to start the game.  
+3. On each turn, a player **rolls a dice** (1–6) and moves forward that many positions.  
+4. **Snakes** 🐍:  
+   - If a player lands on a square with the **head of a snake**, they **slide down** to the snake's tail.  
+5. **Ladders** 🪜:  
+   - If a player lands at the **bottom of a ladder**, they **climb up** to the top of the ladder.  
+6. If a player **overshoots 100**, they **stay in their current position** and wait for the next turn.  
+7. The first player to reach **position 100** **wins the game**.  
+8. Players can **reset** the game at any time or **quit**, which declares the other player the winner.  
+
+**Tip:** Roll strategically and hope for ladders, but watch out for snakes! 🎲🐍🪜
+- - -
 
 ## 🚀 **Live Demo**  
----
+
 Check the game live here: [🌐 **Snake & Ladders Game**](https://snakeandladders.ccbp.tech/)  
 
 ---
