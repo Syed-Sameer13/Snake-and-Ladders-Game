@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.pn {
+    color: #6303a3;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+}
+
+.vs {
+    color: #e80582;
+    font-size: 35px;
+    font-family: "Lobster";
+}
+
+.main {
+    background-image: linear-gradient(to bottom,#eb8a36,#ebc636,#eaf731);
+    background-size: cover;
+    text-align: center;
+    border-color: #f51629;
+    border-width: 8px;
+    border-style: double;
+    padding-bottom: 50px;
+}
+
+.main-head {
+    color: #8b57fa;
+    font-size: 50px;
+    font-family: Lobster;
+    margin-top: 60px;
+}
+
+.mhs1 {
+    color: #ff4561;
+}
+
+.slimg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70vw;
+    height: 70vw;
+
+}
+
+.ph {
+    color: #ff4561;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    font-weight: 600;
+}
+
+.ie {
+    background-color: #e5c8fa;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #6a68f2;
+    color: #80065b;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+.pos {
+    color: #4b0a8c;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#sl {
+    color: #a721eb;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Caveat";
+}
+
+.poss {
+    font-size: 25px;
+    color: #2e07de;
+    text-decoration: underline;
+    width: 5px;
+    height: 3px;
+}
+
+.posm {
+    color: #4b0a8c;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.postop {
+    color: #4b0a8c;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #f590bc;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #692df7;
+}
+
+.btrq {
+    height: 50px;
+    color: white;
+    background-color: #fc7853;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: #681fde;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-style: solid;
+    font-size: 25px;
+}
+
+.pd {
+    color: #eb1730;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Lobster;
+}
+
+.result {
+    color: #290bd6;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: Caveat;
+    text-align: center;
+    background-color: #f542a7;
+
+}

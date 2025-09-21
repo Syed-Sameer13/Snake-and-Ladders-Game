@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="main" id="sectionpage1">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-12">
+                    <h1 class="main-head text-center">
+                        Snake <span class="mhs1">&</span> Ladders
+                    </h1>
+                </div>
+                <div class="col-12">
+                    <img src="https://res.cloudinary.com/dbacdwmef/image/upload/v1758434482/img4_a6vz9d.jpg" class="slimg" />
+                </div>
+                <hr />
+                <div class="player1 col-12 col-md-6">
+                    <h3 class="ph"> Player-1</h3>
+                    <input type="text" placeholder="Enter your name" id="p1" class="ie" />
+                    <br />
+                </div>
+                <div class="player1 col-12 col-md-6">
+                    <h3 class="ph"> Player-2</h3>
+                    <input type="text" placeholder="Enter your name" id="p2" class="ie" />
+                    <br />
+                </div>
+                <div class="col-12">
+                    <button class="btrq" id="setBut" onclick="display('sectionpage2')"> Set Players</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main" id="sectionpage2">
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <p class="postop  col-6 sticky-top">Player-1 Position: <span id="p1pos" class="poss"> 0</span></p>
+                <p class="postop col-6 sticky-top">Player-2 Position: <span id="p2pos" class="poss"> 0</span></p>
+                <div class="col-12">
+                    <img src="https://res.cloudinary.com/dbacdwmef/image/upload/v1758434482/img4_a6vz9d.jpg" class="slimg" />
+                </div>
+
+
+                <p class="pn col-12 col-md-5" id="player1Name"> </p>
+                <p class="vs col-12 col-md-2" id="player1Name">VS </p>
+                <p class="col-12 pn col-md-5" id="player2Name"> </p>
+                <div class="col-12 ">
+                    <p id="sl"> </p>
+                    <p id="mov" class="posm"> </p>
+                    <p id="cpl" class="pos"> Player1 Turn</p>
+                </div>
+
+
+                <button class="btrq col-5 ml-auto mr-auto" id="roll"> Roll</button>
+                <button class="btrq col-5 ml-auto mr-auto" id="move"> Move</button>
+                <button class="btrq col-5 ml-auto mr-auto" id="quit"> Quit</button>
+                <button class="btrq col-5 ml-auto mr-auto" id="reset" onclick="display('sectionpage1')"> Reset</button>
+
+                <div class="col-12 text-center pd">
+                    <p id="pos"> 0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
