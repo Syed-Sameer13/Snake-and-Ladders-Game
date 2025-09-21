@@ -2,7 +2,7 @@
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://snakeandladders.ccbp.tech/) ![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow) ![MIT License](https://img.shields.io/badge/License-MIT-green) ![Student Project](https://img.shields.io/badge/Status-Student-blue)
 
 A simple **Snakes and Ladders game** built using **HTML, CSS, and JavaScript**.  
-This project is part of my learning journey as a **2nd year B.Tech student**, exploring **frontend development, JavaScript logic, and DOM manipulation**.
+This project is part of my learning journey as a **II B.Tech student**, exploring **frontend development, JavaScript logic, and DOM manipulation**.
 
 ---
 
